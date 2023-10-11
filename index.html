@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #openseadragon1 {
+                height: 100vh;
+                background-color: black;
+            }
+            body {
+                margin: auto;
+            }
+        </style>
+        <script src="openseadragon.min.js"></script>
+    </head>
+    <body>
+        <div id="openseadragon1"></div>
+        <script type="text/javascript">
+            OpenSeadragon({
+                    id: "openseadragon1",
+                    prefixUrl: "/",
+                    tileSources: "veil.dzi",
+                    immediateRender: true,
+                    showNavigationControl: false,
+                    
+                });
+        </script>
+    </body>
+</html>
